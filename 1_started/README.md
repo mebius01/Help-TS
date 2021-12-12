@@ -1,18 +1,28 @@
 # Getting Started
 
 [Install](#install)
+
 [Get Help](#get-help)
+
 [Set ECMAScript version](#set-ecmascript-version)
+
 [Remove comments](#remove-comments)
+
 [Set output directory](#set-output-directory)
+
 [Combine files](#combine-files)
+
 [Type Module](#type-module)
+
 [Run compilation](#run-compilation)
+
 [Auto compilation](#auto-compilation)
+
 [tsconfig.json](#tsconfigjson)
 
+
 ---
-##### Install
+###### Install
 
 ```bash 
 npm install -g typescript
@@ -21,45 +31,45 @@ npm install -g ts-node
 tsc -v
 ```
 
-##### Get help
+###### Get help
 
 ```bash
 tsc -h
 ```
 
-##### Set ECMAScript version
+###### Set ECMAScript version
 "ES5", "ES6" / "ES2015", "ES7" / "ES2016", "ES2017", "ES2018", "ES2019", "ES2020"
 
 ```bash
 tsc app.ts -t ES2020
 ```
 
-##### Remove comments
+###### Remove comments
 
 ```bash
 tsc app.ts --removeComments
 ```
 
-##### Set output directory
+###### Set output directory
 
 ```bash
 tsc --outDir /home/user/project/... app.ts
 ```
 
-##### Combine files
+###### Combine files
 
 ```bash
 tsc --outFile output.js app.ts hello.ts
 ```
 
-##### Type Module
+###### Type Module
 
 ```bash
 tsc -m commonjs app.ts
 ```
 
 
-##### Run compilation 
+###### Run compilation 
 
 Create file "app.ts"
 ```javascript
@@ -72,7 +82,7 @@ console.log({msg, num});
 tsc 1_started/app.ts
 ```
 
-##### Auto compilation
+###### Auto compilation
 
 ```bash
 tsc -w app.ts
@@ -80,7 +90,7 @@ tsc -w app.ts
 
 ---
 
-##### tsconfig.json
+###### tsconfig.json
 [www.typescriptlang.org](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
 [tsconfig.json с комментариями](https://gist.github.com/KRostyslav/82a25c469ffa6652825d58537ac6bc22)
