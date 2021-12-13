@@ -17,5 +17,7 @@ Small cheat sheet by TypeScript
 ###### [TypeScript in Node.js](./10_node/README.md)
 
 ---
+##### Source:
+[www.typescripttutorial.net](https://www.typescripttutorial.net/)
 
-[source](https://www.typescripttutorial.net/)
+[TypeScript. Полный курс](https://www.youtube.com/watch?v=5QnZ9AyDW6c)
