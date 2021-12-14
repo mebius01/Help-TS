@@ -20,8 +20,6 @@
 
 [tsconfig.json](#tsconfigjson)
 
-[Pagination](#pagination)
-
 
 ---
 #### Install
@@ -112,6 +110,6 @@ Create file "tsconfig.json"
 ```
 
 ---
-##### Pagination
+
 
 [Previous](./README.md) | [Next](./../2_types/README.md)

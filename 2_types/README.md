@@ -20,20 +20,21 @@
 
 [Enum](#enum)
 
-[Pagination](#pagination)
-
-
 
 ---
 #### Type in JS
 
-- String
-- Number
-- Boolean
-- Null
-- Undefine
-- Object
-- Symbol
+```javascript
+typeof "Jon";    // "string "
+typeof 42;       // "number "
+typeof true;     // "boolean "
+typeof [];       // "object "
+typeof {};       // "object "
+typeof null;     // "object "
+typeof undefine; // "undefine"
+typeof Symbol(); // "symbol"
+
+```
 
 #### Any
 For dynamic content.
@@ -145,30 +146,50 @@ const person: [number, string, boolean] = [1, "Steve", true];
 
 #### Enum
 
-In simple words, enums allow us to declare a set of named constants i.e. a collection of related values that can be numeric or string values.
+Enums allow a developer to define a set of named constants. 
 There are three types of enums:
 
-Numeric Enum
+##### Numeric Enum  
+**Newspaper** is initialized with 0.From now on, all following items are automatically incremented by **+1**
 ```typescript
 enum PrintMedia {
-  Newspaper = 1,
-  Newsletter = 5,
-  Magazine = 5,
-  Book = 10
+  Newspaper = 0,
+  Newsletter, // 1
+  Magazine, // 2
+  Book // 3
 }
+
+const newspaper: number = PrintMedia.Newspaper
+console.log(newspaper) // 0
 ```
 
-String Enum
+You can set initialization with *2*
 ```typescript
 enum PrintMedia {
-  Newspaper = "NEWSPAPER",
-  Newsletter = "NEWSLETTER",
-  Magazine = "MAGAZINE",
-  Book = "BOOK"
+  Newspaper = 2,
+  Newsletter, // 3
+  Magazine, // 4
+  Book // 5
 }
+
+const magazine: number = PrintMedia.Magazine
+console.log(magazine) // 4
 ```
 
-Heterogeneous Enum
+##### String Enum
+```typescript
+enum Num {
+  one = "ONE",
+  two = "TWO",
+  three = "THREE",
+  four = "FOUR"
+}
+
+const one: string = Num.one
+console.log(one) // "ONE"
+```
+
+##### Heterogeneous Enum
 ```typescript
 enum Status { 
   Active = 'ACTIVE', 
@@ -178,7 +199,7 @@ enum Status {
 ```
 
 ---
-##### Pagination
+
 
 [Previous](./../1_started/README.md) | [Home](./../README.md) | [Next](./../3_control_flow_statements/README.md)
 

@@ -25,8 +25,6 @@ Small cheat sheet by TypeScript
 
 [TypeScript in Node.js](./10_node/README.md)
 
-[Pagination](#pagination)
-
 
 ---
 ##### Source:
@@ -34,6 +32,7 @@ Small cheat sheet by TypeScript
 
 [TypeScript. Полный курс](https://www.youtube.com/watch?v=5QnZ9AyDW6c)
 
+---
 
-##### Pagination
+
 [Next](./1_started/README.md)
