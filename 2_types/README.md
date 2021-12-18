@@ -201,5 +201,5 @@ enum Status {
 ---
 
 
-[Previous](./../1_started/README.md) | [Home](./../README.md) | [Next](./../3_control_flow_statements/README.md)
+[Previous](./../1_started/README.md) | [Home](./../README.md) | [Next](./../3_functions/README.md)
 
