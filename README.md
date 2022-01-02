@@ -15,13 +15,13 @@ Small cheat sheet by TypeScript
 
 [Interfaces](./5_interfaces/README.md)
 
-[Advanced Types](./6_advanced_types/README.md)
+[Generics](./6_generics/README.md)
 
-[Generics](./7_generics/README.md)
+[Decorators](./8_decorators/README.md)
 
-[Modules](./8_modules/README.md)
+[Modules](./7_modules/README.md)
 
-[TypeScript in Node.js](./9_node/README.md)
+[TypeScript in Node.js](./8_node/README.md)
 
 
 ---
@@ -33,4 +33,4 @@ Small cheat sheet by TypeScript
 ---
 
 
-[Next](./1_started/README.md)
+[Started](./1_started/README.md)

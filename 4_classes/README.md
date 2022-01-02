@@ -243,3 +243,9 @@ const customer = new Customer("Den")
 console.log(gamer.getGame);
 console.log(customer.getName, customer.getRole);
 ```
+
+
+---
+
+
+[Previous](./../3_functions/README.md) | [Home](./../README.md) | [Next](./../5_interfaces/README.md)
