@@ -17,11 +17,13 @@ Small cheat sheet by TypeScript
 
 [Generics](./6_generics/README.md)
 
-[Decorators](./8_decorators/README.md)
-
 [Modules](./7_modules/README.md)
 
-[TypeScript in Node.js](./8_node/README.md)
+[Decorators](./8_decorators/README.md)
+
+[Utilities](./9_utilities/README.md)
+
+[TypeScript in Node.js](./10_node/README.md)
 
 
 ---

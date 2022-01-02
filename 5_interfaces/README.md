@@ -166,4 +166,4 @@ u.getRole
 ---
 
 
-[Previous](./../4_classes/README.md) | [Home](./../README.md) | [Next](./../6_generics/README.md)
+[Classes](./../4_classes/README.md) | [Home](./../README.md) | [Generics](./../6_generics/README.md)

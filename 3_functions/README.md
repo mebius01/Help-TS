@@ -44,4 +44,4 @@ const sum = (x: number, y: number): number => x + y
 ---
 
 
-[Previous](./../2_types/README.md) | [Home](./../README.md) | [Next](./../4_classes/README.md)
+[Types](./../2_types/README.md) | [Home](./../README.md) | [Classes](./../4_classes/README.md)

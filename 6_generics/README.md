@@ -72,6 +72,6 @@ const user1 = new User("John", 13).ageLimit()
 ---
 
 
-[Previous](./../5_interfaces/README.md) | [Home](./../README.md) | [Next](./../7_modules/README.md)
+[Interfaces](./../5_interfaces/README.md) | [Home](./../README.md) | [Modules](./../7_modules/README.md)
 
 

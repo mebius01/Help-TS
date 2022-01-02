@@ -201,5 +201,5 @@ enum Status {
 ---
 
 
-[Previous](./../1_started/README.md) | [Home](./../README.md) | [Next](./../3_functions/README.md)
+[Started](./../1_started/README.md) | [Home](./../README.md) | [Functions](./../3_functions/README.md)
 

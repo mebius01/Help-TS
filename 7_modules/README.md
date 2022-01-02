@@ -31,4 +31,4 @@ console.log(db.connect());
 ---
 
 
-[Previous](./../6_generics/README.md) | [Home](./../README.md) | [Next](./../8_decorators/README.md)
+[Generics](./../6_generics/README.md) | [Home](./../README.md) | [Decorators](./../8_decorators/README.md)

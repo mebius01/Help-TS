@@ -248,4 +248,4 @@ console.log(customer.getName, customer.getRole);
 ---
 
 
-[Previous](./../3_functions/README.md) | [Home](./../README.md) | [Next](./../5_interfaces/README.md)
+[Functions](./../3_functions/README.md) | [Home](./../README.md) | [Interfaces](./../5_interfaces/README.md)

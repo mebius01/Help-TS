@@ -112,4 +112,4 @@ Create file "tsconfig.json"
 ---
 
 
-[Previous](./README.md) | [Next](./../2_types/README.md)
+[Home](./README.md) | [Types](./../2_types/README.md)
